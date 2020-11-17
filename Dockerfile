@@ -18,4 +18,3 @@ RUN adduser -D user
 RUN chown -R user:user /app
 USER user
 
-RUN . /app/.env
