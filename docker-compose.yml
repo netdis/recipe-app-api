@@ -17,7 +17,7 @@ services:
       - DB_NAME
       - DB_USER
       - DB_PASS
-      - ENV_PATH
+      - SECRET_KEY
     depends_on:
       - db
 
